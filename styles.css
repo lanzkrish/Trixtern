@@ -40,10 +40,24 @@ nav a:hover{
 h1{
     color: var(--primary-color);
     font-weight: 800;
-    font-size: 11rem;
+    font-size: 10rem;
 }
 p{
     color: var(--primary-color);
+}
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+.countdown {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2px;
 }
 section{
     /* max-height: 100vh; */
